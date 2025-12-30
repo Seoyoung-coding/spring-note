@@ -17,3 +17,8 @@ GetMapping : "보여주세요" (Read)
 우리 코드 예시:
 
 /board/write (POST): "내가 쓴 이 글 좀 DB에 저장해줘"
+
+
+
+1. @OneToMany 일대다 관계 : 한 엔티티가 여러 엔티티를 참조함
+2. 여러 개의 질문(Many)은 한 명의 사용자(One)에게 속합니다.
